@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    font-size: 75%;
+}
+body {
+    background-color: #EBECED;
+}
+div.goods header p {
+    width: 100%;
+    height: 5.916rem;
+    background-color: #fafafa;
+    line-height: 5.916rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #777777;
+}
+div.goods main {
+    background-color: white;
+    position: relative;
+    padding-bottom: 3.5rem;
+    margin-bottom: 1rem;
+}
+div.goods main .goodsInfo img {
+    width: 100%;
+}
+div.goods main .swiper-container {
+    width: 100%;
+
+}
+div.goods main article {
+    overflow: hidden;
+}
+div.goods main article ul li {
+    margin-top: 1rem;
+    width: 25%;
+    text-align: center;
+    list-style: none;
+    float: left;
+    font-size: 2.333rem;
+}
+div.goods main article ul li:first-of-type {
+    color: #FD6946;
+}
+div.goods main article ul li:nth-of-type(2) {
+    color: #97CEEC;
+}
+div.goods main article ul li:nth-of-type(3) {
+    color: #EF8A61;
+}
+div.goods main article ul li:last-of-type {
+    color: #7AA9CC;
+}
+div.goods main article ul li p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+div.goods main .introduce section {
+    position: relative;
+    width: 57%;
+    height: 3.333rem;
+    background-color: #FAFAFA;
+    margin-top: 4rem;
+}
+div.goods main .introduce section img {
+    position: absolute;
+    float: left;
+    width: 4.16rem;
+    height: 4.16rem;
+    margin-left: 1.5rem;
+    bottom: -.3rem;
+}
+div.goods main .introduce section p {
+    line-height: 3.333rem;
+    padding-left: 7rem;
+    color: #777777;
+}
+div.goods main .introduce article {
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    width: 80%;
+}
+div.goods main .introduce article p {
+    color: #777777;
+    font-size: 1.333rem;
+    line-height: 4rem;
+}
+div.goods main .introduce .pic {
+    margin-bottom: 15rem;
+}
+div.goods main .introduce .up {
+    width: 100%;
+    height: 3.33rem;
+    border-top: 1px dashed #ccc;
+    line-height: 3.333rem;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    position: absolute;
+    /*bottom: -3rem;*/
+}
+div.goods main .introduce .up p {
+    display: inline-block;
+}
+div.goods .onlineShop {
+    padding-top: 2rem;
+    width: 100%;
+    height: 4.08rem;
+    background-color: white;
+    margin-top: 2.5rem;
+}
+div.goods .onlineShop p {
+    margin: 0 auto;
+    width: 73%;
+    height: 2.8rem;
+    background-color: #ED6D34;
+    line-height: 2.8rem;
+    text-align: center;
+    color: white;
+    border-radius: 4.166rem;
+}
+div.goods .onlineShop p i {
+    display: inline-block;
+    margin-right: 1rem;
+}
+div.goods .drink {
+    width: 100%;
+    height: 4.08rem;
+    background-color: white;
+    margin-top: 2.5rem;
+    line-height: 4.08rem;
+}
+div.goods .drink p {
+    margin-left: 4rem;
+    color: #777;
+}
+div.goods footer::after {
+    content: "";
+    display: inline-block;
+    height: 5rem;
+}
+div.goods footer article {
+    border-top: 2px solid #47B2E2;
+    color: #777;
+    margin-top: 2.5rem;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 5rem;
+}
+div.goods footer article>p:first-of-type {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+}
+div.goods footer article>p:last-of-type {
+    width: 80%;
+    height: 2.91rem;
+    background-color:#87B1D1;
+    margin-left: 2.6rem;
+    border-radius: 4.16rem;
+    line-height: 2.91rem;
+}
+div.goods footer article .pic i {
+    font-size: 5rem;
+    color: #777;
+    margin-top: 3rem;
+}
+div.goods footer article .pic p {
+    font-size: 1.5rem;
+}
+div.goods footer .return {
+    width: 1rem;
+    display: inline-block;
+    position: absolute;
+    right: 2rem;
+}
+div.goods footer .return i {
+    color: #777777;
+
+}
